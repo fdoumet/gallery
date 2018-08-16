@@ -13,6 +13,8 @@
 namespace OCA\Gallery\Service;
 
 use OCP\Files\File;
+use OCP\Files\InvalidPathException;
+use OCP\Files\NotFoundException;
 use OCP\Image;
 use OCP\IPreview;
 use OCP\ILogger;
@@ -60,6 +62,7 @@ class PreviewService extends Service {
 	 */
 	public function isPreviewRequired($file, $animatedPreview) {
 		$mime = $file->getMimeType();
+		$mimePart = $file->getMimePart();
 
 		if ($mime === 'image/svg+xml') {
 			return $this->isSvgPreviewRequired();
@@ -67,6 +70,23 @@ class PreviewService extends Service {
 		if ($mime === 'image/gif') {
 			return $this->isGifPreviewRequired($file, $animatedPreview);
 		}
+
+		// Get file sizes
+		try {
+			$fileSize = $file->getSize();
+		} catch (InvalidPathException $e) {
+			\OC::$server->getLogger()->error($e->getMessage());
+			return true;
+		} catch (NotFoundException $e) {
+			\OC::$server->getLogger()->error($e->getMessage());
+			return true;
+		}
+
+		// If the file size is less than the original file size, this means that it has been already compressed by MLVX.
+		// So just use the final compressed image, since any "preview" generated will be of higher size anyway.
+		$originalFileSize = $file->getOriginalSize();
+		if ($mimePart === 'image' && $fileSize < $originalFileSize)
+			return false;
 
 		return true;
 	}
