@@ -79,7 +79,7 @@ OC.L10N.register(
     "Error setting expiration date" : "Napaka nastavljanja datuma preteka",
     "Email sent" : "Elektronska pošta je poslana",
     "Warning" : "Opozorilo",
-    "Add to your Nextcloud" : "Dodaj v svoj Nextcloud",
+    "Add to Compression.ai" : "Dodaj v svoj Compression.ai",
     "This share is password-protected" : "To mesto je zaščiteno z geslom.",
     "The password is wrong. Try again." : "Geslo je napačno. Poskusite znova.",
     "Sort by name" : "Razvrsti po imenu",

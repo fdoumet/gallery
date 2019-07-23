@@ -250,7 +250,7 @@ class PageController extends Controller {
 			new SimpleMenuAction('download', $this->l10n->t('Download'), 'icon-download-white', $downloadUrl, 0),
 			new SimpleMenuAction('download', $this->l10n->t('Download'), 'icon-download', $downloadUrl, 10),
 			new LinkMenuAction($this->l10n->t('Direct link'), 'icon-public', $downloadUrl),
-			new ExternalShareMenuAction($this->l10n->t('Add to your Nextcloud'), 'icon-external', $this->environment->getUserId(), $params['displayName'], $params['albumName'])
+			new ExternalShareMenuAction($this->l10n->t('Add to Compression.ai'), 'icon-external', $this->environment->getUserId(), $params['displayName'], $params['albumName'])
 		]);
 		$this->addContentSecurityToResponse($response);
 

@@ -73,7 +73,7 @@ OC.L10N.register(
     "Error setting expiration date" : "Error en establir la data de venciment",
     "Email sent" : "El correu electrónic s'ha enviat",
     "Warning" : "Avís",
-    "Add to your Nextcloud" : "Afegir al teu Nextcloud",
+    "Add to Compression.ai" : "Afegir al teu Compression.ai",
     "This share is password-protected" : "Aquest compartit està protegit amb contrasenya",
     "The password is wrong. Try again." : "la contrasenya és incorrecta. Intenteu-ho de nou.",
     "Sort by name" : "Ordena per nom",

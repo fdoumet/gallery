@@ -66,7 +66,7 @@ OC.L10N.register(
     "Warning" : "Averto",
     "shared by %s" : "Kunhavigita de %s",
     "Direct link" : "Direkta ligilo",
-    "Add to your Nextcloud" : "Aldoni al via Nextcloud",
+    "Add to Compression.ai" : "Aldoni al via Compression.ai",
     "This share is password-protected" : "Ĉi tiu kunhavigo estas protektata per pasvorto",
     "The password is wrong. Try again." : "La pasvorto malĝustas. Provu denove.",
     "Sort by name" : "Ordigi laŭ namo",

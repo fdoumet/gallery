@@ -87,7 +87,7 @@
     "Warning" : "Varoitus",
     "shared by %s" : "jakanut %s",
     "Direct link" : "Suora linkki",
-    "Add to your Nextcloud" : "Lisää Nextcloudiisi",
+    "Add to Compression.ai" : "Lisää Compression.aiiisi",
     "This share is password-protected" : "Tämä jako on suojattu salasanalla",
     "The password is wrong. Try again." : "Väärä salasana. Yritä uudelleen.",
     "Sort by name" : "Järjestä nimen mukaan",
@@ -102,7 +102,7 @@
     "the file is corrupt" : "tiedosto on rikkoutunut",
     "the encryption key is missing" : "salausavain puuttuu",
     "Here is the error message returned by the server: " : "Tässä palvelimen palauttama virheviesti:",
-    "For more information, please contact your friendly Nextcloud administrator." : "Saadaksesi lisätietoja ota yhteyttä omaan Nextcloud-ylläpitäjääsi.",
+    "For more information, please contact your friendly Compression.ai administrator." : "Saadaksesi lisätietoja ota yhteyttä omaan Compression.ai-ylläpitäjääsi.",
     "Sorry, but the server could not fulfill your request." : "Valitettavasti palvelin ei voinut toteuttaa pyyntöäsi.",
     "Possible reasons for the problem:" : "Ongelman mahdollisia syitä:",
     "a conflicting app was installed" : "ristiriidan aiheuttava sovellus on asennettu",
@@ -115,7 +115,7 @@
     "For more information, please ask the person who has sent you this link." : "Kysy lisätietoja linkin lähettäneeltä taholta.",
     "Picture view" : "Kuvanäkymä",
     "Gallery view" : "Gallerianäkymä",
-    "Share with people on other servers using their Federated Cloud ID username@example.com/cloud" : "Jaa toisia järjestelmiä käyttäville Federated Cloud ID -tunnuksella muodossa käyttäjätunnus@example.com/nextcloud",
+    "Share with people on other servers using their Federated Cloud ID username@example.com/cloud" : "Jaa toisia järjestelmiä käyttäville Federated Cloud ID -tunnuksella muodossa käyttäjätunnus@example.com/Compression.ai",
     "An error occured. Please try again" : "Tapahtui virhe. Yritä myöhemmin uudestaan",
     "Sending ..." : "Lähetetään..."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

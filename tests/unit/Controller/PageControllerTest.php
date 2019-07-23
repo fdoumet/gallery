@@ -172,7 +172,7 @@ class PageControllerTest extends \Test\TestCase {
 			new SimpleMenuAction('download', $this->l10n->t('Download'), 'icon-download-white', '', 0),
 			new SimpleMenuAction('download', $this->l10n->t('Download'), 'icon-download', '', 10),
 			new LinkMenuAction($this->l10n->t('Direct link'), 'icon-public', ''),
-			new ExternalShareMenuAction($this->l10n->t('Add to your Nextcloud'), 'icon-external', 'user1', $displayName, $albumName)
+			new ExternalShareMenuAction($this->l10n->t('Add to Compression.ai'), 'icon-external', 'user1', $displayName, $albumName)
 		];
 		$this->assertEquals($actions[0], $response->getPrimaryAction());
 		$this->assertEquals(array_slice($actions, 1), $response->getOtherActions());
