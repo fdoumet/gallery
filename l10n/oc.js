@@ -18,7 +18,6 @@ OC.L10N.register(
     "Album cannot be shown" : "Impossible d'afichar l'album",
     "No media files found" : "Cap de fichièr mèdia pas trobat",
     "Configuration error" : "Error de configuracion",
-    "New" : "Novèl",
     "Error loading slideshow template" : "Error al moment del telecargament del modèl de diaporama ",
     "Next" : "Seguent",
     "Play" : "Aviar",
@@ -73,9 +72,9 @@ OC.L10N.register(
     "Warning" : "Atencion",
     "This share is password-protected" : "Aqueste partiment es protegit per un senhal",
     "The password is wrong. Try again." : "Lo senhal es incorrècte. Ensajatz tornamai.",
+    "Cancel upload" : "Anullar lo mandadís",
     "Sort by name" : "Triar per nom",
     "Sort by date" : "Triar per data",
-    "Cancel upload" : "Anullar lo mandadís",
     "Album information" : "Informacions sus l'album",
     "File list" : "Lista dels fichièrs",
     "Sorry, this file could not be found." : "O planhèm, aqueste fichièr a pas pogut èsser trobat.",
@@ -96,8 +95,6 @@ OC.L10N.register(
     "sharing is disabled" : "lo partiment es desactivat",
     "For more information, please ask the person who has sent you this link." : "Per mai d'informacions, contactatz la persona que vos a mandat aqueste ligam.",
     "Picture view" : "Visualizacion de l'imatge",
-    "Gallery view" : "Vista en galariá",
-    "An error occured. Please try again" : "Una error s'es produsida. Mercé d'ensajar tornamai",
-    "Sending ..." : "Mandadís…"
+    "New" : "Novèl"
 },
 "nplurals=2; plural=(n > 1);");

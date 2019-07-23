@@ -2,7 +2,6 @@ OC.L10N.register(
     "gallery",
     {
     "Gallery" : "Galleri",
-    "New" : "Ny",
     "Error loading slideshow template" : "Klarte ikkje lasta lysbiletmal",
     "Next" : "Neste",
     "Play" : "Spel",
@@ -53,6 +52,6 @@ OC.L10N.register(
     "Reasons might be:" : "Moglege grunnar:",
     "the item was removed" : "fila/mappa er fjerna",
     "sharing is disabled" : "deling er slått av",
-    "Sending ..." : "Sender …"
+    "New" : "Ny"
 },
 "nplurals=2; plural=(n != 1);");

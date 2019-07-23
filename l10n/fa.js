@@ -4,7 +4,6 @@ OC.L10N.register(
     "Gallery" : "گالری",
     "Could not load the description: " : "امکان بارگذاری توضیحات وجود ندارد:",
     "Copyright" : "کپی‌رایت",
-    "New" : "جدید",
     "Error loading slideshow template" : "خطا در بارگذاری قالب نمایش به صورت اسلاید",
     "Next" : "بعدی",
     "Play" : "پخش کردن",
@@ -56,9 +55,9 @@ OC.L10N.register(
     "Warning" : "اخطار",
     "This share is password-protected" : "این اشتراک توسط رمز عبور محافظت می شود",
     "The password is wrong. Try again." : "رمزعبور اشتباه می باشد. دوباره امتحان کنید.",
+    "Cancel upload" : "متوقف کردن بار گذاری",
     "Sort by name" : "مرتب‌سازی بر اساس نام",
     "Sort by date" : "مرتب‌سازی بر اساس تاریخ",
-    "Cancel upload" : "متوقف کردن بار گذاری",
     "Album information" : "اطلاعات آلبوم",
     "File list" : "لیست فایل ها",
     "Sorry, this file could not be found." : "متاسفم، این فایل یافت نشد.",
@@ -67,8 +66,6 @@ OC.L10N.register(
     "the link has expired" : "لینک منقضی شده است",
     "sharing is disabled" : "قابلیت اشتراک گذاری غیرفعال است",
     "Picture view" : "نمایش تصویر",
-    "Gallery view" : "نمایش گالری",
-    "An error occured. Please try again" : "یک خطا رخ داده است، لطفا مجددا تلاش کنید",
-    "Sending ..." : "درحال ارسال ..."
+    "New" : "جدید"
 },
 "nplurals=2; plural=(n > 1);");

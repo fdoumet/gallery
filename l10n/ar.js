@@ -2,7 +2,9 @@ OC.L10N.register(
     "gallery",
     {
     "Gallery" : "معرض صور",
-    "New" : "جديد",
+    "Copyright" : "حقوق التأليف",
+    "No media files found" : "لا توجد هناك أية وسائط",
+    "Hide Album" : "إخفاء الألبوم",
     "Error loading slideshow template" : "خطأ في تحميل قالب عرض الشرائح.",
     "Next" : "التالي",
     "Play" : "تشغيل",
@@ -51,16 +53,20 @@ OC.L10N.register(
     "Password protected" : "محمي بكلمة السر",
     "Error unsetting expiration date" : "حصل خطأ عند عملية إزالة تاريخ إنتهاء الصلاحية",
     "Error setting expiration date" : "حصل خطأ عند عملية تعيين تاريخ إنتهاء الصلاحية",
+    "Sending…" : "جارٍ الإرسال…",
     "Email sent" : "تم ارسال البريد الالكتروني",
     "Warning" : "تحذير",
+    "shared by %s" : "تمت مشاركته مِن طرف %s",
+    "Direct link" : "رابط مباشر",
     "This share is password-protected" : "هذه المشاركة محمية بكلمة مرور",
     "The password is wrong. Try again." : "كلمة المرور خاطئة. حاول مرة أخرى",
     "Cancel upload" : "إلغاء الرفع",
+    "Album information" : "معلومات عن الألبوم",
     "File list" : "قائمة الملفات",
     "Reasons might be:" : "الأسباب الممكنة :",
     "the item was removed" : "تم حذف العنصر المطلوب",
     "sharing is disabled" : "المشاركة غير مفعلة",
     "Picture view" : "عرض الصورة",
-    "Sending ..." : "جاري الارسال ..."
+    "New" : "جديد"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

@@ -22,7 +22,6 @@ OC.L10N.register(
     "No media files found" : "No se encontraron archivos de medios",
     "Upload new files via drag and drop or by using the [+] button above" : "Cargue archivos nuevos ya sea arrastrándolos o bien usando el botón [+] de arriba",
     "Configuration error" : "Error de configuración",
-    "New" : "Nuevo",
     "Hide Album" : "Ocultar álbum",
     "Could not hide album" : "No fue posible ocultar el álbum",
     "Error loading slideshow template" : "Se presentó un error al cargar la plantilla de presentación",
@@ -86,9 +85,9 @@ OC.L10N.register(
     "Add to Compression.ai" : "Agregar a su Compression.ai",
     "This share is password-protected" : "Este elemento compartido está protegido con una contraseña",
     "The password is wrong. Try again." : "Error en la contraseña. Inténtelo de nuevo.",
+    "Cancel upload" : "Cancelar carga",
     "Sort by name" : "Ordenar por nombre",
     "Sort by date" : "Ordenar por fecha",
-    "Cancel upload" : "Cancelar carga",
     "Album information" : "Información del álbum",
     "File list" : "Lista de archivos",
     "Sorry, this file could not be found." : "Lo sentimos, no fue posible encontrar este archivo. ",
@@ -110,9 +109,6 @@ OC.L10N.register(
     "sharing is disabled" : "compartir está deshabilitado",
     "For more information, please ask the person who has sent you this link." : "Para mayor información, favor de consultar a la persona que le envió este link.",
     "Picture view" : "Vista de imágenes",
-    "Gallery view" : "Ver galería",
-    "Share with people on other servers using their Federated Cloud ID username@example.com/cloud" : "Compartir con personas en otros servidores usando su ID de nube federada username@example.com/cloud",
-    "An error occured. Please try again" : "Se presentó un error. Favor de intentar de nuevo",
-    "Sending ..." : "Enviando..."
+    "New" : "Nuevo"
 },
 "nplurals=2; plural=(n != 1);");

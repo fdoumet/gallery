@@ -23,7 +23,6 @@ OC.L10N.register(
     "Upload pictures in the Files app to display them here" : "Lae rakenduses Failid polte üles, et neid siin näidata",
     "Upload new files via drag and drop or by using the [+] button above" : "Lae üles uusi faile lohistades või vajutades [+] nuppu ülal",
     "Configuration error" : "Seadistamise tõrge",
-    "New" : "Uus",
     "Hide Album" : "Peida album",
     "Could not hide album" : "Albumit ei saanud peita",
     "Error loading slideshow template" : "Viga slaidiseansi kujunduse valimisel",
@@ -92,9 +91,9 @@ OC.L10N.register(
     "Add to Compression.ai" : "Lisa oma Compression.aii",
     "This share is password-protected" : "See jagamine on parooliga kaitstud",
     "The password is wrong. Try again." : "Parool on vale. Proovi uuesti.",
+    "Cancel upload" : "Tühista üleslaadimine",
     "Sort by name" : "Sorteeri nime järgi",
     "Sort by date" : "Sorteeri kuupäeva järgi",
-    "Cancel upload" : "Tühista üleslaadimine",
     "Album information" : "Albumi info",
     "File list" : "Failide nimekiri",
     "Sorry, this file could not be found." : "Vabandust, seda faili ei leitud.",
@@ -116,9 +115,6 @@ OC.L10N.register(
     "sharing is disabled" : "jagamine on peatatud",
     "For more information, please ask the person who has sent you this link." : "Küsi lisainfot inimeselt, kes sulle selle lingi saatis.",
     "Picture view" : "Pildi vaade",
-    "Gallery view" : "Galeriivaade",
-    "Share with people on other servers using their Federated Cloud ID username@example.com/cloud" : "Jaga inimestega teistes serverites kasutades nende liitpilve ID-d username@example.com/cloud",
-    "An error occured. Please try again" : "Tekkis tõrge. Palun proovi uuesti",
-    "Sending ..." : "Saatmine ..."
+    "New" : "Uus"
 },
 "nplurals=2; plural=(n != 1);");

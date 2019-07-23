@@ -23,7 +23,6 @@ OC.L10N.register(
     "Upload pictures in the Files app to display them here" : "Xubi semeyes a l'aplicación Ficheros p'amosalos equí",
     "Upload new files via drag and drop or by using the [+] button above" : "Xubir nuevos ficheros al traviés d'arrastrar y soltar o utilizando'l botón [+] anterior",
     "Configuration error" : "Error de configuración",
-    "New" : "Nuevu",
     "Hide Album" : "Anubrir Álbum",
     "Could not hide album" : "Nun pudo anubrise l'álbum",
     "Error loading slideshow template" : "Fallu al cargar la plantía de diapositives",
@@ -85,9 +84,9 @@ OC.L10N.register(
     "Warning" : "Avisu",
     "This share is password-protected" : "Esta compartición tien contraseña protexida",
     "The password is wrong. Try again." : "La contraseña ye incorreuta. Inténtalo otra vegada.",
+    "Cancel upload" : "Encaboxar xuba",
     "Sort by name" : "Ordenador por nome",
     "Sort by date" : "Ordenar por fecha",
-    "Cancel upload" : "Encaboxar xuba",
     "Album information" : "Información del album",
     "File list" : "Llista de ficheros",
     "Sorry, this file could not be found." : "Sentímoslo, esti ficheru nun pudo atopase.",
@@ -109,9 +108,6 @@ OC.L10N.register(
     "sharing is disabled" : "la compartición ta deshabilitada",
     "For more information, please ask the person who has sent you this link." : "Pa más información, entrúga-y a la persona qu'unvió esti enllaz.",
     "Picture view" : "Vista d'imáxenes",
-    "Gallery view" : "Vista de galería",
-    "Share with people on other servers using their Federated Cloud ID username@example.com/cloud" : "Comparti con xente d'otros sirvidores usando la ID de ñube federada nome_usuariu@exemplu.com/cloud",
-    "An error occured. Please try again" : "Hebo un fallu. Por favor, inténtalo dempués. ",
-    "Sending ..." : "Unviando ..."
+    "New" : "Nuevu"
 },
 "nplurals=2; plural=(n != 1);");

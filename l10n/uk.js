@@ -5,7 +5,6 @@ OC.L10N.register(
     "Your browser is not supported!" : "Ваш браузер не підтримується!",
     "No media files found" : "Відсутні мультимедійні файли.",
     "Configuration error" : "Помилка конфігурації",
-    "New" : "Створити",
     "Error loading slideshow template" : "Помилка завантаження шаблона слайд-шоу",
     "Next" : "Наступний",
     "Play" : "Грати",
@@ -57,9 +56,9 @@ OC.L10N.register(
     "Warning" : "Попередження",
     "This share is password-protected" : "Цей ресурс обміну захищений паролем",
     "The password is wrong. Try again." : "Невірний пароль. Спробуйте ще раз.",
+    "Cancel upload" : "Скасувати вивантаження",
     "Sort by name" : "Впорядкувати за ім’ям",
     "Sort by date" : "Сортувати за датою",
-    "Cancel upload" : "Скасувати вивантаження",
     "Album information" : "Інформація про альбом",
     "File list" : "Список файлів",
     "Sorry, this file could not be found." : "Вибачте, цей файл не може бути знайдено.",
@@ -72,7 +71,6 @@ OC.L10N.register(
     "the link has expired" : "посилання застаріло",
     "sharing is disabled" : "обмін заборонений",
     "Picture view" : "Перегляд Зображення",
-    "An error occured. Please try again" : "Виникла помилка. Будь ласка, спробуйте ще раз",
-    "Sending ..." : "Надсилання..."
+    "New" : "Створити"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");

@@ -20,7 +20,6 @@ OC.L10N.register(
     "No media files found" : "Não foram encontrados quaisquer ficheiros multimédia",
     "Upload new files via drag and drop or by using the [+] button above" : "Envie ficheiros novos através da técnica de arrastar e largar ou usando o botão [+] acima",
     "Configuration error" : "Erro de configuração",
-    "New" : "Novo",
     "Error loading slideshow template" : "Ocorreu um erro a carregar o modelo de diapositivos",
     "<strong>Error!</strong> Could not generate a preview of this file.<br>Please go to the next slide while we remove this image from the slideshow" : "<strong>Erro!</strong> Não foi possível gerar uma pré-visualização deste ficheiro.<br>Por favor, vá para o próximo diapositivo enquanto nós removemos esta imagem do diaporama",
     "Next" : "Seguinte",
@@ -77,9 +76,9 @@ OC.L10N.register(
     "Warning" : "Aviso",
     "This share is password-protected" : "Esta partilha está protegida por senha",
     "The password is wrong. Try again." : "A senha está errada. Por favor, tente de novo.",
+    "Cancel upload" : "Cancelar o envio",
     "Sort by name" : "Ordenar por nome",
     "Sort by date" : "Ordenar por data",
-    "Cancel upload" : "Cancelar o envio",
     "Album information" : "Informação do álbum",
     "File list" : "Lista de Ficheiros",
     "Sorry, this file could not be found." : "Desculpe, não foi possível encontrar este ficheiro.",
@@ -100,8 +99,6 @@ OC.L10N.register(
     "sharing is disabled" : "a partilha está desativada",
     "For more information, please ask the person who has sent you this link." : "Para mais informação, por favor, pergunte à pessoa que lhe enviou esta hiperligação.",
     "Picture view" : "Visualização da Imagem",
-    "Gallery view" : "Visualização da galeria",
-    "An error occured. Please try again" : "Ocorreu um erro. Por favor, tente de novo",
-    "Sending ..." : "A enviar..."
+    "New" : "Novo"
 },
 "nplurals=2; plural=(n != 1);");

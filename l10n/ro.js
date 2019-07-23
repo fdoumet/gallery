@@ -13,9 +13,8 @@ OC.L10N.register(
     "Album cannot be shown" : "Albumul nu poate fi afișat",
     "No media files found" : "Nu s-au găsit fișiere media",
     "Configuration error" : "Eroare de configurare",
-    "New" : "Nou",
     "Error loading slideshow template" : "eroare la incarcarea modelului ",
-    "Next" : "Următor",
+    "Next" : "Următorul",
     "Play" : "Redă",
     "Pause" : "Pauză",
     "Previous" : "Anterior",
@@ -68,9 +67,9 @@ OC.L10N.register(
     "Warning" : "Atenție",
     "This share is password-protected" : "Această partajare este protejată cu parolă",
     "The password is wrong. Try again." : "Parola este incorectă. Încercaţi din nou.",
+    "Cancel upload" : "Anulează încărcarea",
     "Sort by name" : "Sortează după nume",
     "Sort by date" : "Sortează după dată",
-    "Cancel upload" : "Anulează încărcarea",
     "Album information" : "Informații album",
     "File list" : "Listă de fișiere",
     "Sorry, this file could not be found." : "Ne pare rău, acest fișier nu a fost găsit.",
@@ -90,7 +89,6 @@ OC.L10N.register(
     "sharing is disabled" : "partajarea este oprită",
     "For more information, please ask the person who has sent you this link." : "Pentru mai multe informații, ia legătura cu persoana care ți-a trimis acest link.",
     "Picture view" : "Vizualizare imagine",
-    "An error occured. Please try again" : "A apărut o eroare. Te rugăm să încerci din nou",
-    "Sending ..." : "Se expediază..."
+    "New" : "Nou"
 },
 "nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));");

@@ -23,7 +23,6 @@ OC.L10N.register(
     "Upload pictures in the Files app to display them here" : "Ngarko foto në aplikacionin Files për t'i shfaqur ato këtu",
     "Upload new files via drag and drop or by using the [+] button above" : "Ngarkoni kartela të reja përmes teknikës merr dhe vër, ose duke përdorur butonin [+] me sipër",
     "Configuration error" : "Gabim formësimi",
-    "New" : "E re",
     "Hide Album" : "Fshihe Albumin",
     "Could not hide album" : "Albumi s’u fsheh dot",
     "Error loading slideshow template" : "Gabim gjatë ngarkimit të gjedhes për diapozitiva",
@@ -87,9 +86,9 @@ OC.L10N.register(
     "Add to Compression.ai" : "Shtoni Compression.aiin tuaj",
     "This share is password-protected" : "Kjo pjesë është e mbrojtur me fjalëkalim",
     "The password is wrong. Try again." : "Fjalëkalimi është i gabuar. Riprovoni.",
+    "Cancel upload" : "Anuloje ngarkimin",
     "Sort by name" : "Renditi sipas emrash",
     "Sort by date" : "Renditi sipas datash",
-    "Cancel upload" : "Anuloje ngarkimin",
     "Album information" : "Të dhëna albumi",
     "File list" : "Listë skedarësh",
     "Sorry, this file could not be found." : "Na vjen keq, kjo kartelë s’u gjet dot.",
@@ -111,9 +110,6 @@ OC.L10N.register(
     "sharing is disabled" : "ndarjet janë çaktivizuar",
     "For more information, please ask the person who has sent you this link." : "Për më tepër informacion, ju lutemi, pyetni personin që ju dërgoi këtë lidhje.",
     "Picture view" : "Pamje Foto",
-    "Gallery view" : "Pamje Galeri",
-    "Share with people on other servers using their Federated Cloud ID username@example.com/cloud" : "Ndani me njerëz në servera të tjerë duke përdorut ID-në e Federated Cloud username@example.com/cloud",
-    "An error occured. Please try again" : "Ndodhi një gabim. Ju lutemi, riprovoni",
-    "Sending ..." : "Po dërgohet …"
+    "New" : "E re"
 },
 "nplurals=2; plural=(n != 1);");
