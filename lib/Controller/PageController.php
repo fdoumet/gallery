@@ -22,6 +22,7 @@ use OCP\IL10N;
 use OCP\IURLGenerator;
 use OCP\IRequest;
 use OCP\IConfig;
+use OCP\Defaults;
 
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
@@ -50,6 +51,8 @@ class PageController extends Controller {
 	private $dispatcher;
 	/** @var IL10N */
 	private $l10n;
+	/** @var Defaults */
+	private $defaults;
 
 	/**
 	 * Constructor
@@ -69,7 +72,8 @@ class PageController extends Controller {
 		IURLGenerator $urlGenerator,
 		IConfig $appConfig,
 		EventDispatcherInterface $dispatcher,
-		IL10N $l10n
+		IL10N $l10n,
+		Defaults $defaults
 	) {
 		parent::__construct($appName, $request);
 
@@ -78,6 +82,7 @@ class PageController extends Controller {
 		$this->appConfig = $appConfig;
 		$this->dispatcher = $dispatcher;
 		$this->l10n = $l10n;
+		$this->defaults = $defaults;
 	}
 
 	/**
@@ -250,7 +255,7 @@ class PageController extends Controller {
 			new SimpleMenuAction('download', $this->l10n->t('Download'), 'icon-download-white', $downloadUrl, 0),
 			new SimpleMenuAction('download', $this->l10n->t('Download'), 'icon-download', $downloadUrl, 10),
 			new LinkMenuAction($this->l10n->t('Direct link'), 'icon-public', $downloadUrl),
-			new ExternalShareMenuAction($this->l10n->t('Add to Compression.ai'), 'icon-external', $this->environment->getUserId(), $params['displayName'], $params['albumName'])
+			new ExternalShareMenuAction($this->l10n->t('Add to ' . $this->defaults->getName()), 'icon-external', $this->environment->getUserId(), $params['displayName'], $params['albumName'])
 		]);
 		$this->addContentSecurityToResponse($response);
 
