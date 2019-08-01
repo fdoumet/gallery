@@ -83,7 +83,8 @@ class Application extends App {
 				$c->query('OCP\IURLGenerator'),
 				$c->query('OCP\IConfig'),
 				$c->query(EventDispatcherInterface::class),
-				$c->query(IL10N::class)
+				$c->query(IL10N::class),
+				$c->query('OCP\Defaults')
 			);
 		}
 		);
